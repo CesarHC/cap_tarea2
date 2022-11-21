@@ -1,0 +1,23 @@
+h1 {
+    font-size: 36px;
+    color: #000;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-align: center;
+}
+
+sub {
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: rgb(3, 0, 173);
+    line-height: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
