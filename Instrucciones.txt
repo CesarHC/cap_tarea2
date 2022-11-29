@@ -1,0 +1,17 @@
+1) Convertirlo en un repositorio: git init
+2) Eliminar uno de ellos: rm segunda.html
+3) Agregar al staging los dos archivos: git add .
+4) Eliminar el segundo del staging: git rm --cached primera.html
+5) Hacer cambios nuevos al segundo y volver a agregarlo al 
+staging: git add primera.html
+6) Hacer commit del estado actual: git commit -m "Index con primera pagina - base"
+7) Agregar una hoja de estilos aplicando algunos a las etiquetas 
+disponibles: touch style.css
+8) Hacer commit al estado actual: git add . y 
+git commit -m "Creacion de estilo"
+9) En el proyecto recibido volver al momento donde no tenía hoja de 
+estilo borrando la historia: git reset 26e62f1f08314eda004be26d464ac68d920a2bad --hard
+10) Crea una nueva hoja y aplicar estilos: touch style_new.css
+11) Hacer commit de los nuevos cambios: git add . y 
+git commit -m "creacion nuevos estilo y aplicacion de ellos"
+12) Revisar el log de los commit: git log
